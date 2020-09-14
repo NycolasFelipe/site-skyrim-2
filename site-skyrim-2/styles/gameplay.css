@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+ul#album-imagens {
+	margin-left: -30px;
+	width: 650px;
+	height: 600px;
+	list-style: none;
+}
+
+ul#album-imagens li {
+	float: left;
+	border: 1px solid black;
+	box-shadow: 1px 1px 4px black;
+	background-position: 50% 50%;
+	background-size: 500px 300px;
+	width: 300px;
+	height: 200px;
+	margin: 5px;
+}
+
+ul#album-imagens li:hover {
+	background-position: 50% 50%;
+	background-size: 320px 200px;
+	transform: scale(1.3);
+	transition: all 0.2s ease-in;
+}
+
+ul#album-imagens li#screenshot-01 {
+	background-image: url('../images/screenshot-01.jpg');
+	background-repeat: no-repeat;
+}
+
+ul#album-imagens li#screenshot-02 {
+	background-image: url('../images/screenshot-02.jpg');
+	background-repeat: no-repeat;
+}
+
+ul#album-imagens li#screenshot-03 {
+	background-image: url('../images/screenshot-03.jpg');
+	background-repeat: no-repeat;
+}
+
+ul#album-imagens li#screenshot-04 {
+	background-image: url('../images/screenshot-04.jpg');
+	background-repeat: no-repeat;
+}
+
+ul#album-imagens li#screenshot-05 {
+	background-image: url('../images/screenshot-05.jpg');
+	background-repeat: no-repeat;
+}
+
+ul#album-imagens li#screenshot-06 {
+	background-image: url('../images/screenshot-06.jpg');
+	background-repeat: no-repeat;
+}
+
+ul#album-imagens li span {
+	font-size: 10pt;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 360px;
+	margin-left: 10px;
+	text-shadow: 1px 1px 1px black;
+	opacity: 0;
+}
+
+ul#album-imagens li:hover span {
+	opacity: 1;
+}
+
+div#iframe-caixa {
+	position: relative;
+	left: 40px;
+}
+
+article#

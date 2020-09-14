@@ -1,0 +1,255 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face{
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 12pt;
+}
+body {
+	color: white;
+	background-color: #000000;
+	font-family: 'Arial', sans-serif;
+}
+
+div#interface {
+	width: 1024px;
+	background-color: #171717;
+	margin: -10px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(255, 255, 255,.5);
+}
+
+a {
+	text-decoration:none;
+	color: #6e7d94;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*Cabecalho*/
+
+header#cabecalho {
+	height: 150px;
+	background-image: url("../images/cabecalho.jpg");
+	}
+
+header#cabecalho img#logo-imagem {
+	position: relative;
+	left: 2%;
+	top: 30px;
+	filter: drop-shadow(1px 1px 0.5px white); 
+}
+
+header#cabecalho img#logo-texto {
+	position: relative;
+	left: 2.5%;
+	top: -10px;
+}
+
+header#cabecalho h1 {
+	display: none;
+}
+
+/*Menu*/
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 95px;
+	left: 250px;
+}
+nav#menu li {
+	display: inline-block;;
+	background-color: none;
+	padding: 7px;
+	margin: 5px;
+}
+
+nav#menu a {
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: none;
+}
+
+nav#menu a:hover {
+	color: #bdbdbd;
+}
+
+section#titulo {
+	display: block;
+	width: 975px;
+	padding: 25px;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}
+
+section#titulo h1 {
+	border-bottom: 1px solid #6b6a6a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20pt;
+}
+
+section#titulo h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	font-weight: 300;
+	margin-top: -15px;
+}
+
+/*Corpo*/
+
+section#corpo h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17pt;
+	margin-top: 30px;
+	border-bottom: 1px solid #6b6a6a;
+}
+
+section#corpo h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+section#corpo {
+	display: block;
+	float: left;
+	width: 640px;
+	padding: 10px;
+	margin-top: -20px;
+	margin-left: 22px;
+}
+
+section#corpo img#mapa-skyrim {
+	margin: 15px 0px 25px 10px;
+	box-shadow: 2px 2px 4px black;
+}
+
+button#botao-min {
+	position: absolute;
+	left: 205px;
+	top: 1130px;
+	width: 50px;
+	height: 15px;
+	background-color: #363636;
+	opacity: 0;
+	transition: 0.6s ease-in-out 0.1s;
+}
+
+button#botao-min.exibir {
+	opacity: 1;
+}
+
+span#ajuda-botao {
+	font-size: 8pt;
+	position: absolute;
+	top: 1130px;
+	left: 260px;
+	opacity: 0;
+	transition: 0.6s ease-in-out 0.1s;
+}
+
+span#ajuda-botao.exibir {
+	opacity: 1;
+}
+
+iframe#frame-mapa {
+	margin-top: -30px;
+	height: 50px;
+	transition: 0.8s ease 0.1s;
+}
+
+iframe#frame-mapa.exibir {
+	height: 260px;
+}
+
+iframe#frame-mapa.esconder {
+	height: 0px;
+}
+
+aside#lateral {
+	display: block;
+	float: right;
+	width: 280px;
+	padding: 10px;
+	margin-top: -25px;
+	margin-right: 22px;
+}
+
+aside#lateral h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17pt;
+	border-bottom: 1px solid #6b6a6a;
+}
+
+aside#lateral h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #6b6a6a;
+	padding-bottom: 5px;
+	margin: 20px;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+/*Formatação Tabela*/
+
+table#requisitos {
+	border: 1px solid black;
+	border-spacing: 0px;
+	margin: 15px auto 40px auto;
+}
+
+table#requisitos caption {
+	font-size: 13pt;
+	font-weight: bolder;
+	text-align: left;
+}
+
+table#requisitos caption span {
+	display: block;
+	float: right;
+	font-size: 8pt;
+	margin-top: 10px;
+	margin-right: 3px;
+}
+
+table#requisitos td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+table#requisitos td.ce {
+	font-weight: bold;
+	font-size: 11pt;
+	color: white;
+	text-transform: uppercase;
+	background-color: black;
+}
+
+table#requisitos td.cd {
+	font-size: 10pt;
+	background-color: #3d3d40;
+}
+
+
+
