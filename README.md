@@ -1,2 +1,2 @@
-# Projeto de Site - Skyrim
- Site sobre Skyrim que eu criei para praticar HTML e CSS.
+# Website project - Skyrim
+ Website about Skyrim that I created to practice HTML and CSS.
